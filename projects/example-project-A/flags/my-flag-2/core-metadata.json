@@ -1,0 +1,56 @@
+{
+  "name": "Alternate product page",
+  "kind": "boolean",
+  "description": "This is a description",
+  "key": "alternate.page",
+  "creationDate": 1418684722483,
+  "includeInSnippet": true,
+  "variations": [
+    {
+      "value": true,
+      "name": "true"
+    },
+    {
+      "value": false,
+      "name": "false"
+    }
+  ],
+  "defaults": {
+    "onVariation": 0,
+    "offVariation": 1
+  },
+  "temporary": false,
+  "tags": ["ops", "experiments"],
+  "_links": {
+    "parent": {
+      "href": "/api/v2/flags/default",
+      "type": "application/json"
+    },
+    "self": {
+      "href": "/api/v2/flags/default/alternate.page",
+      "type": "application/json"
+    }
+  },
+  "maintainerId": "548f6741c1efad40031b18ae",
+  "_maintainer": {
+    "_links": {
+      "parent": {
+        "href": "/internal/account/members",
+        "type": "application/json"
+      },
+      "self": {
+        "href": "/internal/account/members/548f6741c1efad40031b18ae",
+        "type": "application/json"
+      }
+    },
+    "_id": "548f6741c1efad40031b18ae",
+    "firstName": "Reese",
+    "lastName": "App",
+    "role": "owner",
+    "email": "refapp@launchdarkly.com",
+    "_pendingInvite": false,
+    "isBeta": false,
+    "customRoles": []
+  },
+  "goalIds": []
+}

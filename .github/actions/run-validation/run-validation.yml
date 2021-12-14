@@ -1,0 +1,5 @@
+jobs:
+  run-validation:
+    steps:
+      - name: Run validation script
+        run: ./.github/scripts/index.js
