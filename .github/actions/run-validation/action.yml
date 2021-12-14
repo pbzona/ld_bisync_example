@@ -1,5 +1,10 @@
-jobs:
-  run-validation:
+name: Run Validation
+description: 'Runs a validation script'
+
+runs:
+  using: ubuntu-latest
+  steps: 
     steps:
-      - name: Run validation script
-        run: ./.github/scripts/index.js
+    - name: Validate
+      run: |
+        node ./.github/scripts/index.js
