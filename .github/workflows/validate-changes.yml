@@ -11,7 +11,7 @@ jobs:
         id: commit_counter
         uses: pbzona/ld_diff_commit_counter@v0.2
       - name: Debug commit counter
-        runs: echo "Depth of fetch will be ${{ steps.commit_counter.outputs.commitCount }}"
+        run: echo "Depth of fetch will be ${{ steps.commit_counter.outputs.commitCount }}"
       - name: Checkout repo
         uses: actions/checkout@v2
         with:
