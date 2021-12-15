@@ -7,10 +7,15 @@ jobs:
   validate-changes:
     runs-on: ubuntu-latest
     steps:
+      - name: Count commits
+        id: commit_counter
+        uses: pbzona/ld_diff_commit_counter@v0.2
+      - name: Debug commit counter
+        runs: echo "Depth of fetch will be ${{ steps.commit_counter.outputs.commitCount }}"
       - name: Checkout repo
         uses: actions/checkout@v2
         with:
-          fetch-depth: 2
+          fetch-depth: ${{ steps.commit_counter.outputs.commitCount }}
       - name: Set up Node
         uses: actions/setup-node@v2
         with:
