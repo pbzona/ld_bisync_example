@@ -3,7 +3,7 @@
   "kind": "boolean",
   "description": "This is a different new description",
   "key": "my-flag-2",
-  "creationDate": 1418684724485,
+  "creationDate": 1418684723385,
   "includeInSnippet": true,
   "variations": [
     {
