@@ -1,7 +1,7 @@
 {
   "name": "Alternate product page",
   "kind": "boolean",
-  "description": "This is a new description",
+  "description": "This is a different new description",
   "key": "my-flag-2",
   "creationDate": 1418684724485,
   "includeInSnippet": true,
