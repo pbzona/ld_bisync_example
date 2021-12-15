@@ -22,7 +22,9 @@ jobs:
           node-version: '14'
       - name: Run validation
         id: validation
-        uses: pbzona/ld_data_validator@v0.25
+        uses: pbzona/ld_data_validator@main
+        with:
+          commitCount: "${{ steps.commit_counter.outputs.commitCount }}"
       - name: Get the output time
         run: echo "The time was ${{ steps.validation.outputs.time }}"
       - name: Get the triggering event
