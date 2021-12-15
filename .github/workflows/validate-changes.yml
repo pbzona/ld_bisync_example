@@ -21,3 +21,5 @@ jobs:
         run: echo "${{ steps.validation.outputs.cwd }}"
       - name: Get the contents of directory
         run: echo "${{ steps.validation.outputs.contents }}"
+      - name: Get the modified files
+        run: echo "${{ steps.validation.outputs.filesChanged }}"
