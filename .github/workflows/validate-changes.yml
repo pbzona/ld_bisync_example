@@ -25,6 +25,11 @@ jobs:
         uses: pbzona/ld_data_validator@main
         with:
           commitCount: "${{ steps.commit_counter.outputs.commitCount }}"
+        secrets:
+          env:
+            LD_API_KEY: ${{ secrets.LD_API_KEY }}
+      - name: Debug
+        run: echo $LD_API_KEY
       - name: Get the triggering event
         run: echo "${{ steps.validation.outputs.event }}"
       - name: Get the modified files
