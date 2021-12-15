@@ -6,13 +6,17 @@ jobs:
     steps:
       - name: Checkout repo
         uses: actions/checkout@v2
+        with:
+          fetch-depth: 2
+      - name: Checkout HEAD
+        run: git checkout HEAD^
       - name: Set up Node
         uses: actions/setup-node@v2
         with:
           node-version: '14'
       - name: Run validation
         id: validation
-        uses: pbzona/ld_data_validator@v0.18
+        uses: pbzona/ld_data_validator@v0.19
       - name: Get the output time
         run: echo "The time was ${{ steps.validation.outputs.time }}"
       - name: Get the triggering event
