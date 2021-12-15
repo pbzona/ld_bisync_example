@@ -1,0 +1,63 @@
+{
+  "name": "phil-flag-2",
+  "kind": "boolean",
+  "description": "This flag has a description",
+  "key": "phil-flag-2",
+  "_version": 1,
+  "creationDate": 1639609763650,
+  "includeInSnippet": false,
+  "clientSideAvailability": {
+    "usingMobileKey": false,
+    "usingEnvironmentId": false
+  },
+  "variations": [
+    {
+      "_id": "b5ad2081-1945-4d91-8959-5ccc9d11c206",
+      "value": true,
+      "name": "TRUE"
+    },
+    {
+      "_id": "9e22a34c-ddc2-40db-9023-e0e099436b35",
+      "value": false,
+      "name": "FALSE"
+    }
+  ],
+  "variationJsonSchema": null,
+  "temporary": true,
+  "tags": [],
+  "_links": {
+    "parent": {
+      "href": "/api/v2/flags/default",
+      "type": "application/json"
+    },
+    "self": {
+      "href": "/api/v2/flags/default/phil-flag-2",
+      "type": "application/json"
+    }
+  },
+  "maintainerId": "61ba707aecf4b00010c17da9",
+  "_maintainer": {
+    "_links": {
+      "self": {
+        "href": "/api/v2/members/61ba707aecf4b00010c17da9",
+        "type": "application/json"
+      }
+    },
+    "_id": "61ba707aecf4b00010c17da9",
+    "firstName": "Phil",
+    "lastName": "Zona",
+    "role": "owner",
+    "email": "pzona@launchdarkly.com"
+  },
+  "goalIds": [],
+  "experiments": {
+    "baselineIdx": 0,
+    "items": []
+  },
+  "customProperties": {},
+  "archived": false,
+  "defaults": {
+    "onVariation": 0,
+    "offVariation": 1
+  }
+}

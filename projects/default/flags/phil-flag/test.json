@@ -1,0 +1,39 @@
+{
+  "on": false,
+  "archived": false,
+  "salt": "f61e73e34b76465d9296990b2b068552",
+  "sel": "5dbe7c1c8cb9468e8a67a36f28b6e37e",
+  "lastModified": 1639608539794,
+  "version": 1,
+  "targets": [],
+  "rules": [],
+  "fallthrough": {
+    "variation": 0
+  },
+  "offVariation": 1,
+  "prerequisites": [],
+  "_site": {
+    "href": "/default/test/features/phil-flag",
+    "type": "text/html"
+  },
+  "_environmentName": "Test",
+  "trackEvents": false,
+  "trackEventsFallthrough": false,
+  "_summary": {
+    "variations": {
+      "0": {
+        "rules": 0,
+        "nullRules": 0,
+        "targets": 0,
+        "isFallthrough": true
+      },
+      "1": {
+        "rules": 0,
+        "nullRules": 0,
+        "targets": 0,
+        "isOff": true
+      }
+    },
+    "prerequisites": 0
+  }
+}
