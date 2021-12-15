@@ -1,5 +1,8 @@
 name: validate-changes
-on: [push]
+on:
+  push:
+    branches:
+      - main
 jobs:
   validate-changes:
     runs-on: ubuntu-latest
