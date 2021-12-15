@@ -1,7 +1,7 @@
 {
   "name": "Alternate product page",
   "kind": "boolean",
-  "description": "This is a description",
+  "description": "This is a different description",
   "key": "alternate.page",
   "creationDate": 1418684722483,
   "includeInSnippet": true,
