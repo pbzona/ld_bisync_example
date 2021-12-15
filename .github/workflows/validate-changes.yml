@@ -23,3 +23,5 @@ jobs:
         run: echo "${{ steps.validation.outputs.filesChanged }}"
       - name: Get the modified flags
         run: echo "${{ steps.validation.outputs.flagsChanged }}"
+      - name: Get the flag modification
+        run: echo "${{ steps.validation.outputs.flagModifications }}"
