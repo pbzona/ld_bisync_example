@@ -2,7 +2,7 @@
   "name": "Alternate product page",
   "kind": "boolean",
   "description": "This is a different description",
-  "key": "alternate.page",
+  "key": "my-flag-1",
   "creationDate": 1418684822483,
   "includeInSnippet": true,
   "variations": [
