@@ -25,7 +25,7 @@ jobs:
         uses: pbzona/ld_data_validator@main
         with:
           commitCount: "${{ steps.commit_counter.outputs.commitCount }}"
-          baseUrl: 'https://varnish-fastly-gonfalon-pr-15438.launchdarkly.okteto.dev/'
+          baseUrl: 'https://varnish-fastly-gonfalon-pr-15438.launchdarkly.okteto.dev'
         env:
           LD_API_KEY: ${{ secrets.LD_API_KEY }}
       - name: Get the triggering event
